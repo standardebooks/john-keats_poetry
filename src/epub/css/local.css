@@ -20,3 +20,11 @@ p span.i3{
 	text-indent: -1em;
 	padding-left: 4em;
 }
+
+.excerpt{
+	font-style: italic;
+}
+
+.signature{
+	font-variant: small-caps;
+}
