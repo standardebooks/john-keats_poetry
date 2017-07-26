@@ -34,10 +34,29 @@ p span.i3{
 	font-variant: small-caps;
 }
 
+[epub|type~="z3998:stage-direction"]{
+	font-style: italic;
+}
+
+p[epub|type~="z3998:stage-direction"]{
+	text-align: center;
+	text-indent: 0;
+}
+
 [epub|type~="z3998:persona"]{
+	font-style:italic;
+	font-weight: normal;
+}
+
+[epub|type~="z3998:dramatis-personae"] [epub|type~="z3998:persona"],
+p[epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"]
+{
+	font-style: normal;
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:stage-direction"]{
-	font-style: italic;
+[epub|type~="z3998:sender"]{
+	font-variant: small-caps;
+	font-style: normal;
+	text-align: right;
 }
