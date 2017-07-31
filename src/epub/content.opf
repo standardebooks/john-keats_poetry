@@ -18,48 +18,39 @@
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">Poems</dc:title>
-		<meta property="file-as" refines="#title">SORT</meta>
-		<dc:subject id="subject-1">SUBJECT1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT2</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">LOCLINK1</meta>
-		<meta property="meta-auth" refines="#subject-2">LOCLINK2</meta>
-		<meta property="se:subject">TAG</meta>
+		<dc:subject id="subject-1">English poetry -- 19th century</dc:subject>
+		<dc:subject id="subject-2">Endymion (Greek mythology) -- Poetry</dc:subject>
+		<dc:subject id="subject-3">Love poetry, Romance</dc:subject>
+		<meta property="meta-auth" refines="#subject-1">https://archive.org/details/completepoetical01keat</meta>
+		<meta property="meta-auth" refines="#subject-2">https://archive.org/details/completepoetical01keat</meta>
+		<meta property="meta-auth" refines="#subject-3">https://archive.org/details/completepoetical01keat</meta>
+		<meta property="se:subject">Poetry</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
 			LONGDESCRIPTION
 		]]></meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>LINK</dc:source>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://archive.org/details/completepoetical01keat</dc:source>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">WIKILINK</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/John_Keats_bibliography</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-keats_poems</meta>
 		<dc:creator id="author">John Keats</dc:creator>
-		<meta property="file-as" refines="#author">SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">FULLNAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">WIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">NACOAFLINK</meta>
+		<meta property="file-as" refines="#author">Keats, John</meta>
+		<meta property="se:name.person.full-name" refines="#author">John Keats</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/John_Keats</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80035884</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="translator">CONTRIB1</dc:contributor>
-		<meta property="file-as" refines="#translator">CONTRIB1SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">WIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">NACOAFLINK</meta>
-		<meta property="display-seq" refines="#translator">1</meta>
-		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">WIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">NACOAFLINK</meta>
+		<dc:contributor id="artist">Joseph Severn</dc:contributor>
+		<meta property="file-as" refines="#artist">Severn, Joseph</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Joseph_Severn</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/no91026053</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">LINK</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-1">http://www.robinwhittleton.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -75,13 +66,37 @@
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/dramas.xhtml" id="dramas.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/early-poems.xhtml" id="early-poems.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endymion.xhtml" id="endymion.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/hyperion.xhtml" id="hyperion.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/supplementary-verse.xhtml" id="supplementary-verse.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-cap-and-bells.xhtml" id="the-cap-and-bells.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-eve-of-st-mark.xhtml" id="the-eve-of-st-mark.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-last-sonnet.xhtml" id="the-last-sonnet.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-poems-of-1818-1819.xhtml" id="the-poems-of-1818-1819.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/to-autumn.xhtml" id="to-autumn.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/verses-to-fanny-brawne.xhtml" id="verses-to-fanny-brawne.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="early-poems.xhtml"/>
+		<itemref idref="endymion.xhtml"/>
+		<itemref idref="the-poems-of-1818-1819.xhtml"/>
+		<itemref idref="dramas.xhtml"/>
+		<itemref idref="the-eve-of-st-mark.xhtml"/>
+		<itemref idref="hyperion.xhtml"/>
+		<itemref idref="to-autumn.xhtml"/>
+		<itemref idref="verses-to-fanny-brawne.xhtml"/>
+		<itemref idref="the-cap-and-bells.xhtml"/>
+		<itemref idref="the-last-sonnet.xhtml"/>
+		<itemref idref="supplementary-verse.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
