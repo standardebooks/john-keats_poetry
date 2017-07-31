@@ -1,5 +1,9 @@
-@charset "UTF-8";
+@charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+abbr.name{
+	white-space: nowrap;
+}
 
 span[epub|type~="subtitle"]{
 	display: block;
@@ -49,8 +53,7 @@ p[epub|type~="z3998:stage-direction"]{
 }
 
 [epub|type~="z3998:dramatis-personae"] [epub|type~="z3998:persona"],
-p[epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"]
-{
+p[epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"]{
 	font-style: normal;
 	font-variant: small-caps;
 }
