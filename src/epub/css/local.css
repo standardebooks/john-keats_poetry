@@ -47,6 +47,10 @@ p[epub|type~="z3998:stage-direction"]{
 	text-indent: 0;
 }
 
+[epub|type~="z3998:stage-direction"].inline-stage-direction{
+	text-align: right;
+}
+
 [epub|type~="z3998:persona"]{
 	font-style:italic;
 	font-weight: normal;
