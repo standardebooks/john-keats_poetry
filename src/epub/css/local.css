@@ -38,7 +38,9 @@ span[epub|type~="subtitle"]{
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:poem"] [epub|type~="z3998:introductory-note"] > span{
+/* reset for .koboSpan and others */
+[epub|type~="z3998:poem"] [epub|type~="z3998:introductory-note"] > span,
+[epub|type~="z3998:poem"] .speech-title > span{
 	display: inline;
 	text-indent: 0;
 	padding-left: 0;
@@ -111,9 +113,18 @@ p[epub|type~="z3998:stage-direction"]{
 }
 
 [epub|type~="z3998:dramatis-personae"] [epub|type~="z3998:persona"],
-p[epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"]{
+p[epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
+.speech-title [epub|type~="z3998:persona"]{
 	font-style: normal;
 	font-variant: small-caps;
+}
+
+[epub|type~="z3998:drama"] .speech-title{
+	text-align: center;
+}
+
+[epub|type~="z3998:drama"] .speech-title + p{
+	margin-top: 0;
 }
 
 [epub|type~="z3998:sender"]{
