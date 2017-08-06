@@ -42,7 +42,8 @@ span[epub|type~="subtitle"]{
 [epub|type~="z3998:poem"] [epub|type~="z3998:introductory-note"] > span,
 [epub|type~="z3998:poem"] .speech-title > span,
 [epub|type~="z3998:drama"] [epub|type~="z3998:stage-direction"] span,
-[epub|type~="z3998:drama"] [epub|type~="z3998:letter"] span{
+[epub|type~="z3998:drama"] [epub|type~="z3998:letter"] span,
+[epub|type~="z3998:poem"] [epub|type~="z3998:annotation"] > span{
 	display: inline;
 	text-indent: 0;
 	padding-left: 0;
@@ -109,11 +110,11 @@ p[epub|type~="z3998:dramatis-personae"]{
 	font-weight: normal;
 }
 
-[epub|type~="z3998:stage-direction"]{
+[epub|type~="z3998:stage-direction"], [epub|type~="z3998:annotation"]{
 	font-style: italic;
 }
 
-p[epub|type~="z3998:stage-direction"]{
+p[epub|type~="z3998:stage-direction"], p[epub|type~="z3998:annotation"]{
 	text-align: center;
 	text-indent: 0;
 }
