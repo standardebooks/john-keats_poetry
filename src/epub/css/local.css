@@ -18,7 +18,6 @@ span[epub|type~="subtitle"]{
 }
 
 [epub|type~="z3998:poem"] p + p,
-[epub|type~="dedication"] p + p,
 [epub|type~="z3998:verse"],
 [epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
@@ -41,18 +40,6 @@ span[epub|type~="subtitle"]{
 [epub|type~="z3998:poem"] [epub|type~="z3998:introductory-note"]{
 	text-align: center;
 	font-variant: small-caps;
-}
-
-/* reset for .koboSpan and others */
-[epub|type~="z3998:poem"] [epub|type~="z3998:introductory-note"] > span,
-[epub|type~="z3998:poem"] .speech-title > span,
-[epub|type~="z3998:verse"] .speech-title > span,
-[epub|type~="z3998:drama"] [epub|type~="z3998:stage-direction"] span,
-[epub|type~="z3998:drama"] [epub|type~="z3998:letter"] span,
-[epub|type~="z3998:poem"] [epub|type~="z3998:annotation"] > span{
-	display: inline;
-	text-indent: 0;
-	padding-left: 0;
 }
 
 [epub|type~="dedication"] p{
@@ -87,15 +74,9 @@ p span.i3{
 	font-size: .75em;
 }
 
-.inspiration footer p {
+.inspiration footer p{
 	text-align: right;
 	font-variant: small-caps;
-}
-
-.inspiration footer span{
-	display: inline;
-	text-indent: 0;
-	padding-left: 0;
 }
 
 .explanation{
@@ -121,11 +102,13 @@ p[epub|type~="z3998:dramatis-personae"]{
 	font-weight: normal;
 }
 
-[epub|type~="z3998:stage-direction"], [epub|type~="z3998:annotation"]{
+[epub|type~="z3998:stage-direction"],
+[epub|type~="z3998:annotation"]{
 	font-style: italic;
 }
 
-p[epub|type~="z3998:stage-direction"], p[epub|type~="z3998:annotation"]{
+p[epub|type~="z3998:stage-direction"],
+p[epub|type~="z3998:annotation"]{
 	text-align: center;
 	text-indent: 0;
 }
@@ -160,18 +143,25 @@ p[epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
 	margin: 1em 0;
 }
 
-[epub|type~="z3998:letter"] > p:first-child, [epub|type~="z3998:letter"] > header + p{
+[epub|type~="z3998:letter"] > p:first-child{
 	text-indent: 0;
-}
-
-[epub|type~="z3998:letter"] header{
-	text-indent: 0;
-	text-align: center;
-	margin-bottom: 1em;
 }
 
 [epub|type~="z3998:sender"]{
 	font-variant: small-caps;
 	font-style: normal;
 	text-align: right;
+}
+
+/* reset for .koboSpan and others */
+[epub|type~="z3998:poem"] [epub|type~="z3998:introductory-note"] > span,
+[epub|type~="z3998:poem"] .speech-title > span,
+[epub|type~="z3998:verse"] .speech-title > span,
+[epub|type~="z3998:drama"] [epub|type~="z3998:stage-direction"] span,
+[epub|type~="z3998:drama"] [epub|type~="z3998:letter"] span,
+[epub|type~="z3998:poem"] [epub|type~="z3998:annotation"] > span,
+.inspiration footer span{
+	display: inline;
+	text-indent: 0;
+	padding-left: 0;
 }
