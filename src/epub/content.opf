@@ -25,10 +25,11 @@
 		<meta property="meta-auth" refines="#subject-2">https://archive.org/details/completepoetical01keat</meta>
 		<meta property="meta-auth" refines="#subject-3">https://archive.org/details/completepoetical01keat</meta>
 		<meta property="se:subject">Poetry</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A collection of John Keats’ published poems, and a selection of unpublished fragments and posthumous verse.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONGDESCRIPTION
+			&lt;p&gt;John Keats’ poems are a major part of the second wave of English Romantic poetry. They portray settings loaded with symbolism and sensuality, and draw heavily on Greek and Roman myth along with romanticised tales of chivalry. Keats died in 1821 at the young age of 25, having written the majority of his work in less than four years. While not appreciated during his lifetime, he has gone one to become one of the most loved of the Romantic poets, and has provided inspiration to authors as diverse as Oscar Wilde, Wilfred Owen and Neil Gaiman.&lt;/p&gt;
+			&lt;p&gt;This collection includes among others early work such as &lt;i epub:type="se:name.publication.poem"&gt;On Death&lt;/i&gt;, the six odes written in 1819, his two epics &lt;i epub:type="se:name.publication.poem"&gt;Hyperion&lt;/i&gt; and &lt;i epub:type="se:name.publication.poem"&gt;Endymion&lt;/i&gt;, and &lt;i epub:type="se:name.publication.poem"&gt;To Autumn&lt;/i&gt;, now widely considered to be one of the best English short poems. The collection is based on the 1900 publication of John Keats’ poetry produced by The Riverside Press, Cambridge, and includes all of his works published in his lifetime in chronological order, along with a supplementary section that collects fragments and other posthumous verse.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
