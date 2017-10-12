@@ -121,7 +121,7 @@ p[epub|type~="z3998:annotation"]{
 /* reset for .koboSpan and others */
 [epub|type~="z3998:poem"] [epub|type~="z3998:introductory-note"] > span,
 [epub|type~="z3998:poem"] .speech-title > span,
-[epub|type~="z3998:poem"] footer > p > span {
+[epub|type~="z3998:poem"] footer > p > span{
 	display: inline;
 	text-indent: 0;
 	padding-left: 0;
