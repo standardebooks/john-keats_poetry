@@ -5,6 +5,10 @@ abbr.name{
 	white-space: nowrap;
 }
 
+article{
+	page-break-after: always;
+}
+
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
