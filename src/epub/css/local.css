@@ -28,6 +28,16 @@ article > header{
 	display: inline-block;
 }
 
+[epub|type~="epigraph"] cite{
+	margin-top: 1em;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+[epub|type~="epigraph"] cite i{
+	font-style: italic;
+}
+
 [epub|type~="z3998:poem"] p,
 [epub|type~="dedication"] p,
 [epub|type~="z3998:verse"] p{
@@ -56,8 +66,9 @@ article > header{
 }
 
 [epub|type~="z3998:poem"] [epub|type~="z3998:introductory-note"]{
-	text-align: center;
+	text-align: center; /* overrides poem styling */
 	font-variant: small-caps;
+	margin: 3em;
 }
 
 [epub|type~="dedication"] p{
@@ -88,18 +99,13 @@ p span.i3{
 	font-variant: small-caps;
 }
 
-.inspiration{
-	font-size: .75em;
+[epub|type~="z3998:poem"] [epub|type~="z3998:introductory-note"].explanation{
+	font-variant: none;
 }
 
-.inspiration footer p{
-	text-align: right;
-	font-variant: small-caps;
-}
-
-.explanation{
-	font-size: .75em;
+footer{
 	margin-top: 1em;
+	text-align: right;
 }
 
 p[epub|type~="z3998:dramatis-personae"]{
@@ -113,6 +119,7 @@ p[epub|type~="z3998:dramatis-personae"]{
 }
 
 p[epub|type~="z3998:annotation"]{
+	margin: 3em;
 	text-align: center;
 	text-indent: 0;
 }
