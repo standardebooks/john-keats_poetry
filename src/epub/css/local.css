@@ -99,8 +99,10 @@ p span.i3{
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:poem"] [epub|type~="z3998:introductory-note"].explanation{
+[epub|type~="z3998:poem"] .explanation{
 	font-variant: none;
+	margin: 3em;
+	text-align: center;
 }
 
 footer{
