@@ -10,6 +10,20 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
+article > header{
+	text-align: center;
+}
+
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+	margin: 3em;
+	margin-top: 0;
+	text-align: left;
+	text-indent: 0;
+	display: inline-block;
+}
+
 [epub|type~="z3998:poem"] p,
 [epub|type~="dedication"] p,
 [epub|type~="z3998:verse"] p{
