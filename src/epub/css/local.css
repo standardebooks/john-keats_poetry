@@ -100,9 +100,17 @@ p span.i3{
 }
 
 [epub|type~="z3998:poem"] .explanation{
-	font-variant: none;
-	margin: 3em;
-	text-align: center;
+	font-variant: normal;
+	margin: 0 auto 3em auto;
+	max-width: 60%;
+	text-align: justify;
+	display: inline-block;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] > p.explanation{
+	display: block;
+	margin: 3em auto;
 }
 
 footer{
@@ -143,13 +151,4 @@ p[epub|type~="z3998:annotation"]{
 
 [epub|type~="z3998:drama"] .speech-title + p{
 	margin-top: 0;
-}
-
-/* reset for .koboSpan and others */
-[epub|type~="z3998:poem"] [epub|type~="z3998:introductory-note"] > span,
-[epub|type~="z3998:poem"] .speech-title > span,
-[epub|type~="z3998:poem"] footer > p > span{
-	display: inline;
-	text-indent: 0;
-	padding-left: 0;
 }
