@@ -135,7 +135,7 @@ p[epub|type~="z3998:annotation"]{
 }
 
 [epub|type~="z3998:persona"]{
-	font-style:italic;
+	font-style: italic;
 	font-weight: normal;
 }
 
