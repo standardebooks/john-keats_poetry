@@ -26,23 +26,24 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Poetry</dc:title>
 		<meta property="file-as" refines="#title">Poetry</meta>
 		<dc:subject id="subject-1">English poetry -- 19th century</dc:subject>
 		<dc:subject id="subject-2">Endymion (Greek mythology) -- Poetry</dc:subject>
 		<dc:subject id="subject-3">Love poetry, Romance</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://archive.org/details/completepoetical01keat</meta>
-		<meta property="meta-auth" refines="#subject-2">https://archive.org/details/completepoetical01keat</meta>
-		<meta property="meta-auth" refines="#subject-3">https://archive.org/details/completepoetical01keat</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85043937</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">Unknown</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="se:subject">Poetry</meta>
 		<dc:description id="description">A collection of John Keats’ published poems, and a selection of unpublished fragments and posthumous verse.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;John Keats’ poems are a major part of the second wave of English Romantic poetry. They portray settings loaded with symbolism and sensuality, and draw heavily on Greek and Roman myth along with romanticised tales of chivalry. Keats died in 1821 at the young age of 25, having written the majority of his work in less than four years. While not appreciated during his lifetime, he has gone on to become one of the most loved of the Romantic poets, and has provided inspiration to authors as diverse as Oscar Wilde, Wilfred Owen and Neil Gaiman.&lt;/p&gt;
 			&lt;p&gt;This collection includes among others early work such as “On Death,” the six odes written in 1819, his two epics &lt;i&gt;Hyperion&lt;/i&gt; and &lt;i&gt;Endymion&lt;/i&gt;, and “To Autumn,” now widely considered to be one of the best English short poems. Keats’ works are presented here in chronological order, and include the poems published in his lifetime and other unfinished fragments and posthumous verse.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/completepoetical01keat</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/005261190</dc:source>
