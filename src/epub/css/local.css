@@ -152,10 +152,6 @@ article > header [epub|type~="epigraph"]{
 	text-align: left;
 }
 
-article > header [epub|type~="epigraph"] + *{
-	margin-top: 3em;
-}
-
 @supports(display: table){
 	article > header [epub|type~="epigraph"]{
 		display: table;
@@ -165,8 +161,4 @@ article > header [epub|type~="epigraph"] + *{
 
 [hidden]{
 	display: none !important; /* Just in case the ereader doesn't understand hidden */
-}
-
-[hidden] + p{
-	margin-top: 3em;
 }
