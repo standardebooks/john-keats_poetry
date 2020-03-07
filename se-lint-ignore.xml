@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="local.css">
+		<ignore>
+			<code>c-008</code>
+			<reason>The targeted element is far too deep to have a sane nth-child selector.</reason>
+		</ignore>
+	</file>
+	<file path="poetry.xhtml">
+		<ignore>
+			<code>m-045</code>
+			<reason>The sonnets and songs are disambiguated in the ToC by their first lines, but they all have the title "Sonnet"/"Song" in the book text.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
