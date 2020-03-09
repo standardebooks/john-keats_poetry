@@ -47,7 +47,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/completepoetical01keat</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/005261190</dc:source>
-		<meta property="se:word-count">96359</meta>
+		<meta property="se:word-count">96433</meta>
 		<meta property="se:reading-ease.flesch">69.55</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/John_Keats_bibliography</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-keats_poetry</meta>
