@@ -78,9 +78,10 @@ p span.i3{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] > p.explanation{
+[epub|type~="z3998:poem"] > footer.explanation{
 	display: block;
 	margin: 3em auto;
+	text-align: inherit;
 }
 
 footer{
@@ -109,6 +110,10 @@ p[epub|type~="z3998:annotation"]{
 	font-weight: normal;
 }
 
+.speech-title{
+	margin-bottom: 1em;
+}
+
 .speech-title [epub|type~="z3998:persona"]{
 	font-style: normal;
 	font-variant: small-caps;
@@ -119,7 +124,7 @@ p[epub|type~="z3998:annotation"]{
 	text-align: center;
 }
 
-[epub|type~="z3998:drama"] .speech-title + p{
+[epub|type~="z3998:drama"] header + p{
 	margin-top: 0;
 }
 
