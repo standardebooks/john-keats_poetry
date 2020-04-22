@@ -11,11 +11,13 @@
 			<code>m-045</code>
 			<reason>The sonnets and songs are disambiguated in the ToC by their first lines, but they all have the title "Sonnet"/"Song" in the book text.</reason>
 		</ignore>
-	</file>
-	<file path="poetry.xhtml">
 		<ignore>
 			<code>t-033</code>
 			<reason>The dash is part of the verse style.</reason>
+		</ignore>
+		<ignore>
+			<code>s-023</code>
+			<reason>The titlecasing is correct because the sections in question are poem titles.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
