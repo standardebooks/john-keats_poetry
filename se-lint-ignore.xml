@@ -15,9 +15,5 @@
 			<code>s-023</code>
 			<reason>The titlecasing is correct because the sections in question are poem titles.</reason>
 		</ignore>
-		<ignore>
-			<code>c-010</code>
-			<reason>Footer is styled according to the text.</reason>
-		</ignore>
 	</file>
 </se-lint-ignore>

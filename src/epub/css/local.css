@@ -73,10 +73,9 @@ p span.i3{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] > footer.explanation{
-	display: block;
+[epub|type~="z3998:poem"] > div.explanation{
 	margin: 3em auto;
-	text-align: inherit;
+	text-align: left;
 }
 
 footer{
