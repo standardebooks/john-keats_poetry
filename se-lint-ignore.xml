@@ -16,4 +16,10 @@
 			<reason>The titlecasing is correct because the sections in question are poem titles.</reason>
 		</ignore>
 	</file>
+	<file path="toc.xhtml">
+		<ignore>
+			<code>t-066</code>
+			<reason>Matched text is not a regnal but rather a stylized title.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
