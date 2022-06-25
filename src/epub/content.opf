@@ -38,6 +38,7 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="se:subject">Poetry</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of John Keats’ published poems, and a selection of unpublished fragments and posthumous verse.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/john-keats"&gt;John Keats’&lt;/a&gt; poems are a major part of the second wave of English Romantic poetry. They portray settings loaded with symbolism and sensuality, and draw heavily on Greek and Roman myth along with romanticised tales of chivalry. Keats died in 1821 at the young age of 25, having written the majority of his work in less than four years. While not appreciated during his lifetime, he has gone on to become one of the most loved of the Romantic poets, and has provided inspiration to authors as diverse as &lt;a href="https://standardebooks.org/ebooks/oscar-wilde"&gt;Oscar Wilde&lt;/a&gt;, &lt;a href="https://standardebooks.org/ebooks/wilfred-owen"&gt;Wilfred Owen&lt;/a&gt; and Neil Gaiman.&lt;/p&gt;
