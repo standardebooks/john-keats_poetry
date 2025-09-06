@@ -6,12 +6,12 @@
 			<reason>The targeted element is far too deep to have a sane nth-child selector.</reason>
 		</ignore>
 		<ignore>
-			<code>t-033</code>
-			<reason>The dash is part of the verse style.</reason>
-		</ignore>
-		<ignore>
 			<code>s-023</code>
 			<reason>The titlecasing is correct because the sections in question are poem titles.</reason>
+		</ignore>
+		<ignore>
+			<code>t-033</code>
+			<reason>The dash is part of the verse style.</reason>
 		</ignore>
 	</file>
 	<file path="toc.xhtml">
